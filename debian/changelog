@@ -1,5 +1,5 @@
-enumiax (0.4a-1) unstable; urgency=low
+enumiax (0.4a-1kali0) kali; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
  -- Devon Kearns <dookie@kali.org>  Mon, 14 Jan 2013 06:38:55 -0700

@@ -1,15 +1,18 @@
 Source: enumiax
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/enumiax.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/enumiax.git;a=summary
+Homepage: http://enumiax.sourceforge.net/
+Vcs-Git: ssh://git@git.kali.org/packages/enumiax.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/enumiax.git;a=summary
 
 Package: enumiax
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: IAX protocol username enumerator
+ enumIAX is an Inter Asterisk Exchange protocol username 
+ brute-force enumerator.
+ enumIAX may operate in two distinct modes; Sequential 
+ Username Guessing or Dictionary Attack.

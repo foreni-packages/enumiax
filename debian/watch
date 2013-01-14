@@ -1,0 +1,8 @@
+version=3
+
+# This is a valid watch file but the upstream author has
+# his releases named incorrectly so it's reporting that
+# there is a version 1.0 available where the current
+# release is actually 0.4
+
+# http://sf.net/enumiax/enumiax-(.*)\.tar\.gz
